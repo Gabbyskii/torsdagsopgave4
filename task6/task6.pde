@@ -5,7 +5,7 @@ int sideLength = 40;
 //6.b - setup for-loop:
 void setup(){
   size(200,200);
-//Nested for loop to create alternating 0 and 1 pattern
+//double for loop creating 0 and 1 pattern
   for(int x = 0; x < 8; x++){
     for(int y = 0; y < 8; y++){
 //Use modulus operator to create checkerboard pattern
