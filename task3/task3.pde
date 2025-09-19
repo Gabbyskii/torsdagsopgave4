@@ -4,6 +4,9 @@ String[] artistNames = {"Brent Faiyaz", "Frank Ocean", "Future", "Summer Walker"
 //3.c String array - hits of artists:
 String[] artistHits = {"Been away", "Nights", "Codeine Crazy", "Session 32", "Disturbia"};
 
+//To make new array list: 
+//ArrayList<String> artistNames2 = new Arraylist();
+
 void setup() {
   // 3.b For-loop that prints numbered list:
   for (int i = 0; i < artistNames.length; i++) {
