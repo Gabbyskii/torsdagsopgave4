@@ -12,3 +12,13 @@ void setup(){
  int randomRes = getRandom();
  println(randomRes);
 }
+
+//(efter fredags-review), for-loop til at få random nummer:
+int[]getRandom(int amount){
+ int[] randomNumbers = new int[amount];
+ for(int i = 0; i < amount; i++){
+  int num = arr[(int)(random(arr.length))];
+  randomNumbers[i] = num;
+ }
+return  randomNumbers;
+}
